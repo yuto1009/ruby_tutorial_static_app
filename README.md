@@ -1,24 +1,20 @@
-# README
+# Ruby on Rails Tutorial's sample application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
+* Ruby version 
+`3.1.4`
 * System dependencies
-
-* Configuration
-
+```
+$ gem install bundler -v 2.4.12
+$ bundle _2.4.12_ install
+```
 * Database creation
-
-* Database initialization
-
+```
+$ rails db:migrate
+```
 * How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
+```
+$ rails test
+```
 * Deployment instructions
-
+For more details, please refer to the [Ruby on Rails Tutorial](https://railstutorial.jp/).
 * ...
